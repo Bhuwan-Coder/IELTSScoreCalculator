@@ -1,0 +1,45 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#bhuwan{
+   
+    border-style: solid;
+    padding: 28px;
+    border-width: 1px;
+    border-color: red;
+    
+}
+#score{
+    text-align: center;
+    font-size: 20px;
+}
+
+#Writing ,#listening,#Speaking,#Reading{
+    float: right;
+}
+#btn{
+    float: right;
+}
+#d{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #313131;
+    animation: bhuwan linear infinite 4s;
+   
+}
+h1{
+    text-align: center;
+   color: crimson;
+    
+}
+@keyframes bhuwan{
+    100%{
+        letter-spacing: 3px;
+        color: red;
+        transition: .5s;
+    }
+}
